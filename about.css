@@ -1,0 +1,109 @@
+body{
+    margin: 0px;
+}
+.history{
+    background-image: url('history.jpg');
+    min-height: 900px;
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.history1{
+    background-color:#154284;;
+    font-size: 25px;
+    height: 320px;
+    text-align: center;
+    margin-top: 0px;
+    
+
+}
+.history1 h1{
+    margin-top: 0px;
+    color: darkred;
+    text-align: center;
+    padding-top: 20px;
+}
+.text{
+    color: darkred;
+    margin: auto;
+}
+/* NAVBAR */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #b32e2e;
+    min-width: 190px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  .dropdown-content a:hover {background-color: darkred;}
+
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover{
+    
+    background-color: darkred;
+    border-radius: 4px;
+    color: white;
+}
+.dropdown :hover  a{
+    color: white;
+}
+.dropdown:hover #schedule{
+    color: white;
+}
+.items:hover{
+    border: 2px solid #154284 ;
+    
+}
+
+.logo img{
+    height: 50px;
+    width: 50px;
+    padding-right: 5px;
+}
+.logo img:hover{
+    transform: scale(1.1);
+}
+.navbar ul{
+    display: flex;
+    padding-left: 30px;
+    padding-top: 20px;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    list-style-type: none;
+    
+}
+.navbar ul li{
+    text-decoration: none;
+    
+}
+.navbar ul li a{
+    padding: 4px 36px;
+    font-size: 22px;
+    color: #154284;
+    font-family: 'Staatliches', cursive;
+    text-decoration: none;
+}
+.normal :hover{
+    background-color: darkred;
+    color: white;
+    border-radius: 4px;
+}
+
+
+.navbar{
+    position: fixed;
+    
+}
