@@ -135,10 +135,12 @@ body{
     margin-bottom: 7px;
     font-family: 'Staatliches', cursive;
     color: rgb(95, 1, 1);
+    letter-spacing: 1px;
 }
 .date{
     margin: 0px;
     color: rgb(95, 1, 1);
+    letter-spacing: 1px;
 
 }
 .initials
@@ -148,7 +150,8 @@ body{
     font-family: 'Staatliches', cursive;
     font-size: 18px;
     margin-bottom: 4px;
-    color: rgb(95, 1, 1)
+    color: rgb(95, 1, 1);
+    letter-spacing: 2px;
 }
 
 

@@ -68,3 +68,86 @@
     position: fixed;
     
 }
+
+.ucl{
+    
+    background-image: url('ucl.jpg');
+    min-height: 900px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* opacity: 0.9; */
+
+}
+.match{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: 'Staatliches', cursive;
+    z-index: 1;
+    padding-top: 15%;    
+}
+.match1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: 'Staatliches', cursive;
+    z-index: 1;
+    padding-top: 1%;    
+
+}
+
+
+.matchday{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: 'Staatliches', cursive;
+    z-index: 1;
+}
+.day{
+    margin: auto;
+    margin-bottom: 7px;
+    font-family: 'Staatliches', cursive;
+    color: rgb(95, 1, 1);
+}
+.date{
+    margin: 0px;
+    color: black;
+    letter-spacing: 1px;
+    color: white;
+
+}
+.day{
+    color: white;
+    letter-spacing: 1px;
+}
+.initials
+{
+    margin-top: 0px;
+    text-align: center;
+    font-family: 'Staatliches', cursive;
+    font-size: 18px;
+    margin-bottom: 4px;
+    color: white;
+    letter-spacing: 2px;
+}
+
+
+.game
+{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid white; */
+    width: 25%;
+    align-items: center;
+    margin: 10px 8px;
+    border-radius: 7px;
+    z-index: 1;
+    background: transparent;
+}
+.game:hover{
+    transform: scale(1.1);
+    backdrop-filter: blur(9px);
+}
